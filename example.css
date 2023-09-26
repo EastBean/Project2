@@ -1,0 +1,63 @@
+.remember {
+    display: flex;
+    justify-content: center;
+}
+
+.remember-text {
+    font-size: 15px;
+}
+
+.sign-in {
+    margin-top: 18px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: .25rem;
+    width: 304px;
+    height: 46px;
+    background-color: rgb(13, 126, 247);
+    color: white;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+    border: solid 3px whitesmoke;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.year {
+    color: gray;
+}
+
+.please {
+    font-weight: 400;
+}
+
+body {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.input {
+    width: 300px;
+    height: 46px;
+}
+
+.input::placeholder {
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.box {
+    display: grid;
+    justify-content: center;
+}
+
+.bi-bootstrap-fill {
+    margin-top: 40px;
+}
